@@ -80,7 +80,7 @@ namespace Bonus18
 
     }
     // no-arguement constructor
-    public Car() 
+    public Car()   
     {
         MakeOfCar = "---";
         ModelOfCar = "---";
@@ -89,6 +89,8 @@ namespace Bonus18
 
     }
         #endregion
-    }
+
+
+    }  //to enter the default car in this scenario, just enter Car = New Car()
 }
 

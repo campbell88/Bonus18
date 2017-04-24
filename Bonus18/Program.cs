@@ -14,7 +14,7 @@ namespace Bonus18
 
             Console.WriteLine("How many cars are you entering: ");
 
-            int sizeOfLot = int.Parse(Console.ReadLine());
+            int sizeOfLot = (ValidateConsoleInput.GetValidInteger());
             Car[] CarsArray = new Car[sizeOfLot];
             
             for (int i = 0; i < sizeOfLot; i++)
